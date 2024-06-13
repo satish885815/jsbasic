@@ -1,0 +1,46 @@
+.traffic {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+.traffic .traffic-control {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.traffic .traffic-light-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.traffic .traffic-light-container .traffic-light {
+  height: 500px;
+  width: 300px;
+  background-color: gray;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.traffic .traffic-control .button {
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.traffic .traffic-light-container .traffic-light .bulb {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+}
