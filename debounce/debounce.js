@@ -16,4 +16,5 @@ const debounce = (fn, d) => {
 const getBetter = debounce(() => {
   // pushMetrics(SEARCH_BY_DESCRIPTION, { Reason: "search by description" });
   console.log("search by description");
+  getData();
 }, 1000);
